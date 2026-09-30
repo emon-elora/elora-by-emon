@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#9c5360">
+  <meta name="description" content="Elora by Emon — Where Fashion Meets Beauty. Women's fashion and beauty essentials in Bangladesh.">
+  <title>Elora by Emon | Fashion & Beauty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">Free delivery on selected orders • Cash on Delivery available nationwide</div>
+
+  <header class="header" id="top">
+    <div class="container header-inner">
+      <button class="icon-btn mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+      <a href="#top" class="brand">
+        <img src="elora-logo.jpg" alt="Elora by Emon">
+        <span><b>ELORA</b><small>by Emon</small></span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#new">New Arrivals</a>
+        <a href="#fashion">Fashion</a>
+        <a href="#beauty">Beauty</a>
+        <a href="#about">Our Story</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="searchOpen" aria-label="Search">⌕</button>
+        <button class="bag-btn" id="bagOpen">Bag <span id="bagCount">0</span></button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#new">New Arrivals</a><a href="#fashion">Fashion</a><a href="#beauty">Beauty</a><a href="#about">Our Story</a>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel">
+    <div class="container search-inner">
+      <input id="searchInput" type="search" placeholder="Search dresses, cosmetics, beauty sets..." autocomplete="off">
+      <button class="icon-btn" id="searchClose">×</button>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">ELORA BY EMON • 2026 COLLECTION</p>
+          <h1>Where <i>Fashion</i><br>Meets Beauty.</h1>
+          <p class="hero-text">Thoughtfully selected women's fashion and beauty essentials for a polished, effortless everyday look.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-dark" href="#new">Shop New Arrivals</a>
+            <a class="text-link" href="#about">Discover Elora <span>→</span></a>
+          </div>
+          <div class="hero-points">
+            <span>✓ Nationwide delivery</span><span>✓ Cash on delivery</span><span>✓ Customer support</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-orbit"></div>
+          <div class="hero-card">
+            <img src="elora-logo.jpg" alt="Elora by Emon logo">
+            <p>BEAUTY • COSMETICS • FASHION</p>
+            <strong>Elevate your everyday.</strong>
+          </div>
+          <div class="floating-note">New<br><b>Arrivals</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><b>01</b><span>Curated collections</span></div>
+        <div><b>02</b><span>Quality-first selection</span></div>
+        <div><b>03</b><span>Nationwide delivery</span></div>
+        <div><b>04</b><span>Easy order support</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="new">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="kicker">JUST IN</p><h2>New arrivals</h2></div>
+          <div class="filters" id="filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="fashion">Fashion</button>
+            <button class="filter" data-filter="beauty">Beauty</button>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="editorial" id="fashion">
+      <div class="container editorial-grid">
+        <div class="editorial-image fashion-image"><span>FASHION</span></div>
+        <div class="editorial-copy">
+          <p class="kicker">WOMEN'S FASHION</p>
+          <h2>Soft silhouettes.<br><i>Modern confidence.</i></h2>
+          <p>From everyday dresses to refined modest looks, explore pieces selected to feel comfortable, feminine and easy to style.</p>
+          <a class="btn btn-outline" href="#new" data-set-filter="fashion">Explore fashion</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="editorial reverse" id="beauty">
+      <div class="container editorial-grid">
+        <div class="editorial-copy">
+          <p class="kicker">BEAUTY & COSMETICS</p>
+          <h2>Your everyday<br><i>glow, curated.</i></h2>
+          <p>Beauty essentials for simple routines, soft glam moments and everything in between.</p>
+          <a class="btn btn-outline" href="#new" data-set-filter="beauty">Explore beauty</a>
+        </div>
+        <div class="editorial-image beauty-image"><span>BEAUTY</span></div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="about-mark"><img src="elora-logo.jpg" alt="Elora by Emon"></div>
+        <div>
+          <p class="kicker">OUR STORY</p>
+          <h2>Made for the woman<br>who knows her style.</h2>
+          <p>Elora by Emon brings fashion and beauty together in one carefully curated space. We focus on beautiful choices, clear communication and a shopping experience that feels personal.</p>
+          <div class="about-list">
+            <div><b>Curated</b><span>Selected with intention</span></div>
+            <div><b>Accessible</b><span>Designed for everyday life</span></div>
+            <div><b>Personal</b><span>Support when you need it</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-cta">
+      <div class="container order-cta-inner">
+        <div><p class="kicker">READY WHEN YOU ARE</p><h2>Find something you love?</h2><p>Order directly through WhatsApp and we'll confirm the details with you.</p></div>
+        <a class="btn btn-light" target="_blank" href="https://wa.me/8801340772818?text=Hello%20Elora%20by%20Emon%2C%20I%20would%20like%20to%20place%20an%20order.">Order on WhatsApp ↗</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="kicker">CONTACT</p><h2>Let's talk.</h2></div>
+        <div class="contact-card"><span>Phone</span><a href="tel:+8801340772818">+880 1340-772818</a></div>
+        <div class="contact-card"><span>Location</span><b>Chittagong, Bangladesh</b></div>
+        <div class="contact-card"><span>Messenger</span><b>Elora by Emon</b></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-main">
+      <div class="footer-brand"><img src="elora-logo.jpg"><div><b>ELORA</b><small>by Emon</small><p>Where Fashion Meets Beauty.</p></div></div>
+      <div class="footer-links"><a href="#fashion">Fashion</a><a href="#beauty">Beauty</a><a href="#about">Our Story</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Elora by Emon</span><span>Chittagong, Bangladesh</span><a href="/admin.html" style="opacity:.35">Admin</a></div>
+  </footer>
+
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawerClose"></div>
+    <div class="drawer-panel">
+      <div class="drawer-head"><h3>Your Bag</h3><button class="icon-btn" id="drawerX">×</button></div>
+      <div id="bagItems" class="bag-items"></div>
+      <div class="bag-summary"><div><span>Subtotal</span><b id="bagTotal">৳ 0</b></div><button class="btn btn-dark full" id="checkoutBtn">Continue to order</button><small>Delivery charge may apply based on location.</small></div>
+    </div>
+  </aside>
+
+  <div class="modal" id="checkoutModal">
+    <div class="modal-box">
+      <div class="drawer-head"><h3>Order details</h3><button class="icon-btn" id="checkoutClose">×</button></div>
+      <p class="modal-note">Fill in your details. Your order will open in WhatsApp for confirmation.</p>
+      <form id="orderForm">
+        <label>Name<input name="name" required placeholder="Your full name"></label>
+        <label>Phone<input name="phone" required placeholder="01XXXXXXXXX"></label>
+        <label>Delivery address<textarea name="address" required placeholder="House, road, area, city"></textarea></label>
+        <button class="btn btn-dark full" type="submit">Send order via WhatsApp ↗</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
